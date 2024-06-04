@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid goldenrod;
+    min-width: 750px;
+    min-height: 800px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.start,
+.sketch-board,
+.options {
+    margin-bottom: 20px;
+}
+.start {
+    color: white;
+    font-size: 30px;
+    align-self: flex-start;
+    background-color: green;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.sketch-board {
+    min-width: 500px;
+    min-height: 550px;
+    border: 5px solid lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.subrow {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    flex: 1;
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    gap: 10px;
+}
+
+.options button {
+    flex: auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: lightblue;
+    color: #333333;
+    font-weight: 900;
+}
+
+.colorpick{
+    visibility: show;
+}
